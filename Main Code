@@ -1,0 +1,28 @@
+# code for calculting midpoints
+
+
+print 'Welcome ot the Midpoint calculator! Calculate the midpoint of a line'
+
+x1 = raw_input('What is the x value of the first endpoint?')
+y1 = raw_input('What is the y value of the first endpoint?')
+
+x2 = raw_input('What is the x value of the second endpoint?')
+y2 = raw_input('What is the y value of the second endpoint?')
+
+
+xsum = x1 + x2
+ysum = y1 + y2
+
+xsum = int(xsum)
+ysum = int(ysum)
+
+
+xpoint = xsum/2
+ypoint = ysum/2
+
+
+print "The midpoint's x value is.........."
+print xpoint
+
+print "The midpoint's y value is.........."
+print ypoint
